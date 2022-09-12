@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Indice de Masse Corporelle</title>
+</head>
+<body>
+    <div id = "app">
+ <div class="imc">
+    Calcul <b>d'IMC</b>
+ </div>
+ <form action="#">
+    <div class="taille-poids">
+        <span>
+    <label for="taille">Votre taille en centimetre</label><br>
+    <input type="text" id="taille" placeholder="votre taille en centimetre "><br>
+    </span>
+    <span>
+    <label for="poids">Votre poids en kg</label><br>
+    <input type="text" id="poids" placeholder="Votre poids en kg "><br>
+    </span>
+    
+    </div>
+    <input type="submit" value="Caiculer un IMC" class="submit">
+ </form>
+<div class="resultat">0</div>
+<div class="attente-resultat">En attante de resultat</div>
+
+
+    </div>
+
+
+    
+    <div class="copyrith"> copyrith :Tous droits reservés &#169; Cheikhou Timera</div>
+    <div> <span class="contact">contact du developpeur:</span>
+    <a href="mailto:timwebdeve@outlook.com" class="mail">@<i class="fa-solid fa-envelope"></i> </a>
+</div>
+
+    
+    <script src="imc.js"></script>
+    
+</body>
+</html>

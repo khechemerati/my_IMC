@@ -1,0 +1,94 @@
+body{
+    background-image: linear-gradient(
+  50deg,
+  hsl(189deg 100% 20%) 0%,
+  hsl(193deg 100% 25%) 17%,
+  hsl(196deg 100% 30%) 33%,
+  hsl(199deg 100% 35%) 50%,
+  hsl(201deg 100% 40%) 67%,
+  hsl(203deg 100% 45%) 83%,
+  hsl(205deg 100% 50%) 100%
+);
+}
+#app{
+    width: 600px;
+    height: auto;
+    background: linear-gradient(
+        50deg,
+        hsl(71deg 40% 78%) 0%,
+        hsl(71deg 40% 78%) 20%,
+        hsl(71deg 40% 78%) 40%,
+        hsl(71deg 40% 78%) 60%,
+        hsl(71deg 40% 78%) 80%,
+        hsl(71deg 40% 78%) 100%
+      );
+      padding: 20px;
+      text-align: center;
+      margin:  auto;
+      font-size: 1.2rem;
+      margin-top: 55px;
+      border: solid 2px rgba(0, 0, 0, 0.435);
+      border-radius: 8px;
+
+      
+}
+.taille-poids{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+   
+}
+input{
+    border: none;
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    text-align: center;
+    background:#fcfdfab0;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.407) ;
+    border-radius: 5px;
+    height: 2rem;
+    
+}
+@media screen and (max-width:600px){
+    .taille-poids{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+.imc{
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.submit{
+    background: goldenrod;
+
+}
+.resultat{
+    font-size: 3rem;
+    margin-bottom: 35px;
+    margin-top: 15px;
+font-weight: bold;
+}
+
+.attente-resultat{
+    font-size: 2rem;
+    display: inline;
+}
+
+.copyrith{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;
+}
+.mail,.contact{
+  display: inline-block;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: aliceblue;  
+    text-decoration: none;
+    margin-left: 15px;
+}
